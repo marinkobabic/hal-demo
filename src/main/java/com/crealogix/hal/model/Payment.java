@@ -1,4 +1,4 @@
-package com.crealogix.hal.impl.model;
+package com.crealogix.hal.model;
 
 import java.util.Date;
 

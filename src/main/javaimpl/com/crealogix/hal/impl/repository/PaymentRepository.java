@@ -1,6 +1,6 @@
 package com.crealogix.hal.impl.repository;
 
-import com.crealogix.hal.impl.model.Payment;
+import com.crealogix.hal.model.Payment;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;

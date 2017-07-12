@@ -1,11 +1,10 @@
 package com.crealogix.hal.impl.repository;
 
-import com.crealogix.hal.impl.model.Account;
+import com.crealogix.hal.model.Account;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.List;
 import java.util.Optional;
 
 /**
