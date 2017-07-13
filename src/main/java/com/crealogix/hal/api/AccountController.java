@@ -23,11 +23,22 @@ public class AccountController {
 
     @RequestMapping("/accounts")
     public Collection<AccountResource> getAll(){
+
         return this.applicationDataProvider.getAllResources();
     }
 
     @RequestMapping("/accounts/{id}")
     public AccountResource getById(@PathVariable(required = true,name = "id") Integer id){
         return this.applicationDataProvider.getResourceById(id);
+    }
+
+    @RequestMapping("/accounts/debitAccounts")
+    public Collection<AccountResource> debitAccouns(){
+        return this.applicationDataProvider.getAllResources();
+    }
+
+    @RequestMapping("/accounts/creditAccounts")
+    public Collection<AccountResource> creditAccouns(){
+        return this.applicationDataProvider.getAllResources();
     }
 }
